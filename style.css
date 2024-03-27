@@ -1,0 +1,43 @@
+.house {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.foundation {
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    background-color: darkgoldenrod;
+    left: 65px;
+    top: 170px;
+}
+
+.roof {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid brown;
+    top: -80px;
+    left: 14px;
+}
+
+.window {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    left: 160px;
+    top: 100px;
+}
+
+.chimney {
+    position: absolute;
+    height: 100px;
+    width: 30px;
+    background-color: gray;
+    left: 250px;
+}
